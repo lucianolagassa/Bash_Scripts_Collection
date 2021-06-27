@@ -1,0 +1,9 @@
+cat random-wallpaper.sh > /usr/bin/random-wallpaper
+chmod 755 /usr/bin/random-wallpaper
+chmod +x /usr/bin/random-wallpaper
+
+# How to use (Manual Run)
+random-wallpaper
+
+# How to use (With Auto-Timer, Every 60 Seconds)
+auto-timer 60 random-wallpaper

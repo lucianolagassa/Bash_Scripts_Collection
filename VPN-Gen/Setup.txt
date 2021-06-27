@@ -1,0 +1,6 @@
+cat vpn-gen.sh > /usr/bin/vpn-gen
+chmod 755 /usr/bin/vpn-gen
+chmod +x /usr/bin/vpn-gen
+
+# How to use (Create 5 VPN Clients)
+vpn-gen client 5

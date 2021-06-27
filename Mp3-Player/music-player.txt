@@ -1,0 +1,3 @@
+cat music-player.sh > /usr/bin/music-player
+chmod 755 /usr/bin/music-player
+chmod +x /usr/bin/music-player

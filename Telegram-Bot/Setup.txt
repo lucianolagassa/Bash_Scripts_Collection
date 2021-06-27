@@ -1,0 +1,9 @@
+cat telegram-bot.sh > /usr/bin/telegram-bot
+chmod 755 /usr/bin/telegram-bot
+chmod +x /usr/bin/telegram-bot
+
+# Config (Edit TOKEN and ID Values. The TOKEN is managed from Telegram with Bot_Father)
+nano /usr/bin/telegram-bot
+
+# How to use
+telegram-bot "Hi this is a test."

@@ -1,0 +1,6 @@
+cat auto-timer.sh > /usr/bin/auto-timer
+chmod 755 /usr/bin/auto-timer
+chmod +x /usr/bin/auto-timer
+
+# How to use (Run Random-Wallpaper Every 60 Seconds)
+auto-timer 60 random-wallpaper
